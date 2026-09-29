@@ -1,0 +1,1 @@
+In PROD, labels.customerId and labels.universalUserId are failing to be indexed and are dropping into _ignored (for example, in .ds-logs-onemain-ciam-prod-2026.09.22-000108), preventing log searches and dashboard creation by customer or user ID. In DEV and STG (logs-onemain-ciam-nprd-*), these fields index and query without issues.
